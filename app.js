@@ -4,11 +4,11 @@ alert ('welcome to my page ..');
  // this code is for showing a messgae for the user
 //  prompt = my house
 var sara =prompt('please enter you number');
+if (number) != 5
 var amro =confirm('are you having a nice day');
  var x = 5
  var firstName = 'Have a great day'
- alert(firstName)
- var age = promt ('what is your age?')
+
  //Mohammed = 'welcome to my site'
  if(age > 18) {
    mohammad = 'sorry you are not allowed'
@@ -20,6 +20,7 @@ var amro =confirm('are you having a nice day');
    alert('have a nice day')
  }
 
+ 
  function welcomingMessage (userName){
  //parameter
  //console.log(userName)
@@ -31,7 +32,7 @@ var amro =confirm('are you having a nice day');
 
 
 var age = prompt('what is your date of birth?')
-functioin getAge(year){
+functioin getAge (year){
 
 console.log('Bashar')
 var calcAge = 2021 - year
@@ -50,9 +51,18 @@ returge age
 console.log 
 
 VAR userFavCar = propmt('whas your favourite car?')
-function userCar(){}
+function userCar(BMW) {
+
+}
+
+Var  userPassword = prompt('Guess the password')
+
+while (userPassword !== '3574'){userPassword prompt = ('incorrect please enter the correct password ')
+
+}
+var userKnowlodge = prompt ('how a refugee can be vurlnable ')
 
 
-
+while (userKnowlodge !== 'elderly' && userKnowlodge !== 'handicapped' && userKnowlodge !== 'child labor') {userKnowlodge = prompot ('try again')}
 
 
