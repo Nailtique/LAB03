@@ -60,11 +60,12 @@ Var  userPassword = prompt('Guess the password')
 while (userPassword ! == '3574')
 {(userPassword prompt = ('incorrect please enter the correct password')
 
+while (userPassword !== '3574'){userPassword prompt = ('incorrect please enter the correct password ')
 }
 var userKnowlodge = prompt ('how a refugee can be vurlnable ')
 
+while (userKnowlodge !== 'elderly' && userKnowlodge !== 'handicapped' && userKnowlodge !== 'child labor') {userKnowlodge = prompot ('try again')}
 
-while (userKnowlodge !== 'elderly' && userKnowlodge !== 'handicapped' && userKnowlodge !==
- 'child labor') {userKnowlodge = prompot ('try again')}
+while (userKnowlodge !== 'elderly' && userKnowlodge !== 'handicapped' && userKnowlodge !== 'child labor') {userKnowlodge = prompot ('try again')}
 
 
