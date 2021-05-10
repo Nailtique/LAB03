@@ -4,7 +4,7 @@ alert ('welcome to my page ..');
  // this code is for showing a messgae for the user
 //  prompt = my house
 var sara =prompt('please enter you number');
-if (number != 5 )
+if (sara != 5 )
 var amro =confirm('are you having a nice day');
  var x = 5
  var firstName = 'Have a great day'
@@ -42,35 +42,45 @@ console.log(calcAge)
 alert(getAge(age))
 
 var square = function (num) { 
-  var  squareCal = num + num 
+  alert  ('squareCal ='+ num + num )
 } 
+square(sara)
 // if we want a vlaue we need to return it other wise it will be unidentified 
 console.log(square(8)); 
-funciton getUserName(firstName,LastName,age)
+function getUserName(firstName,LastName,age)
 {
   alert('welcome'+ fistName + lastName)
-refurge age 
 
-console.log 
+}
 
-VAR userFavCar = propmt('whas your favourite car?')
 function userCar(BMW) {
 
 }
 
-Var  userPassword = prompt('Guess the password')
+var  userPassword = prompt('Guess the password')
 
-while (userPassword ! == '3574')
-{(userPassword prompt = ('incorrect please enter the correct password')
-
-while (userPassword !== '3574'){userPassword prompt = ('incorrect please enter the correct password ')
-
-
+while (userPassword !== '3574')
+{
+  userPassword = prompt('incorrect please enter the correct password')
 }
-var userKnowlodge = prompt ('how a refugee can be vurlnable ')
 
-while (userKnowlodge !== 'elderly' && userKnowlodge !== 'handicapped' && userKnowlodge !== 'child labor') {userKnowlodge = prompot ('try again')}
-
-while (userKnowlodge !== 'elderly' && userKnowlodge !== 'handicapped' && userKnowlodge !== 'child labor') {userKnowlodge = prompot ('try again')}
+// while (userPassword !== '3574'){
+//   userPassword  = prompt('incorrect please enter the correct password ')
 
 
+// }
+// var userKnowlodge = prompt ('how a refugee can be vurlnable ')
+
+// while (userKnowlodge !== 'elderly' && userKnowlodge !== 'handicapped' && userKnowlodge !== 'child labor') {userKnowlodge = prompot ('try again')}
+
+// while (userKnowlodge !== 'elderly' && userKnowlodge !== 'handicapped' && userKnowlodge !== 'child labor') {userKnowlodge = prompot ('try again')}
+function printColor (){
+  var color = prompt('enter your fave color ')
+  var print = prompt('how many times you want to see it')
+  for (var i = 0; i< print; i++ ){ 
+    document.write ('<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Color_icon_red.svg/800px-Color_icon_red.svg.png">')
+  }
+
+
+} 
+printColor ()
